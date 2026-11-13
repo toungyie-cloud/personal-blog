@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="张三的个人博客：工作经历、项目模块与考公复习记录。" />
+  <title>张三的个人博客 | 工作 · 项目 · 考公</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- ===== 导航栏 ===== -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">张<span>三</span>.blog</a>
+
+      <nav class="main-nav" id="main-nav">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#about" class="nav-link">关于我</a>
+        <a href="#experience" class="nav-link">工作经历</a>
+        <a href="#projects" class="nav-link">项目模块</a>
+        <a href="#exam" class="nav-link">考公复习</a>
+        <a href="#blog" class="nav-link">博客文章</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式">🌙</button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 首页 Hero ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting">你好，我是</p>
+          <h1 class="hero-name">张三</h1>
+          <p class="hero-role">前端开发工程师 · 考公备考中</p>
+          <p class="hero-bio">
+            五年互联网开发经验，热爱把复杂的事情变简单。
+            白天写代码，晚上刷行测，在这里记录我的工作、项目与考公复习的全过程。
+          </p>
+          <div class="hero-tags">
+            <span>JavaScript</span>
+            <span>Vue</span>
+            <span>Node.js</span>
+            <span>行测 75+</span>
+            <span>申论</span>
+          </div>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience">了解我的经历</a>
+            <a class="btn btn-ghost" href="#exam">查看复习进度</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-circle">
+            <span class="avatar-initial">张</span>
+          </div>
+          <div class="avatar-ring"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 关于我 ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">关于我</h2>
+        <p class="section-subtitle">一个持续学习、认真生活的人</p>
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">💼</div>
+            <h3>工作</h3>
+            <p>5 年前端开发经验，先后在电商与金融领域负责中后台系统与营销活动开发。</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🛠️</div>
+            <h3>项目</h3>
+            <p>独立完成多个从 0 到 1 的项目，熟悉需求分析、架构设计与上线交付全流程。</p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">📚</div>
+            <h3>考公</h3>
+            <p>备考 2027 年国考，行测各模块稳步推进，坚持每日打卡复盘。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 工作经历 ===== -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <h2 class="section-title">工作经历</h2>
+        <p class="section-subtitle">一路走来，每一步都算数</p>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>前端开发工程师</h3>
+                <span class="timeline-date">2023.06 — 至今</span>
+              </div>
+              <p class="timeline-company">某某科技有限公司</p>
+              <ul>
+                <li>负责公司核心中后台系统的前端架构与开发，覆盖 20+ 页面。</li>
+                <li>主导前端组件库建设，组件复用率提升 40%。</li>
+                <li>推动前端工程化，接入 CI/CD 后发布效率提升明显。</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Vue3</span><span>TypeScript</span><span>Vite</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>Web 前端开发</h3>
+                <span class="timeline-date">2021.03 — 2023.05</span>
+              </div>
+              <p class="timeline-company">某某网络有限公司</p>
+              <ul>
+                <li>参与电商大促活动页开发，保障大促期间页面稳定。</li>
+                <li>负责 H5 商城与小程序功能迭代，持续优化首屏性能。</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Vue2</span><span>微信小程序</span><span>Webpack</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-head">
+                <h3>初级开发工程师</h3>
+                <span class="timeline-date">2019.07 — 2021.02</span>
+              </div>
+              <p class="timeline-company">某某信息科技有限公司</p>
+              <ul>
+                <li>负责公司官网与后台管理页面的开发与维护。</li>
+                <li>从零学习前端框架，参与多个内部工具的落地。</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>HTML/CSS</span><span>jQuery</span><span>Vue2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 项目模块 ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section-title">项目模块</h2>
+        <p class="section-subtitle">把想法做成真正能用的产品</p>
+
+        <div class="project-filter" id="project-filter">
+          <button class="filter-btn active" data-filter="all">全部</button>
+          <button class="filter-btn" data-filter="admin">中后台</button>
+          <button class="filter-btn" data-filter="mobile">移动端</button>
+          <button class="filter-btn" data-filter="tool">工具</button>
+        </div>
+
+        <div class="project-grid" id="project-grid">
+          <article class="project-card reveal" data-category="admin">
+            <div class="project-cover cover-a">🧾</div>
+            <div class="project-body">
+              <h3>电商后台管理系统</h3>
+              <p>基于 Vue3 + Element Plus 的商品、订单、权限一体化管理平台，支持数据看板与批量操作。</p>
+              <div class="project-tags">
+                <span>Vue3</span><span>Pinia</span><span>Element Plus</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="mobile">
+            <div class="project-cover cover-b">📱</div>
+            <div class="project-body">
+              <h3>商城小程序</h3>
+              <p>微信小程序商城，包含首页、商品详情、购物车、下单支付等完整链路，日活 3w+。</p>
+              <div class="project-tags">
+                <span>微信小程序</span><span>云开发</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="tool">
+            <div class="project-cover cover-c">📊</div>
+            <div class="project-body">
+              <h3>数据可视化大屏</h3>
+              <p>面向运营的数据大屏，ECharts 实时渲染核心指标，支持多屏自适应与定时刷新。</p>
+              <div class="project-tags">
+                <span>ECharts</span><span>Vue3</span><span>WebSocket</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="tool">
+            <div class="project-cover cover-d">⚙️</div>
+            <div class="project-body">
+              <h3>考公刷题助手</h3>
+              <p>自用刷题与错题管理工具，支持按模块组卷、计时作答与错题导出，陪伴每天备考。</p>
+              <div class="project-tags">
+                <span>React</span><span>Node.js</span><span>SQLite</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="admin">
+            <div class="project-cover cover-e">🗂️</div>
+            <div class="project-body">
+              <h3>内容管理平台</h3>
+              <p>企业内部内容发布与管理平台，富文本编辑、权限审批流与版本历史一应俱全。</p>
+              <div class="project-tags">
+                <span>Vue3</span><span>TypeScript</span><span>Vite</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="mobile">
+            <div class="project-cover cover-f">🚀</div>
+            <div class="project-body">
+              <h3>H5 营销活动页</h3>
+              <p>大促期间高并发活动页，抽奖、领券、秒杀玩法丰富，峰值 QPS 稳定支撑。</p>
+              <div class="project-tags">
+                <span>Vue2</span><span>性能优化</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 考公复习模块 ===== -->
+    <section class="section section-alt" id="exam">
+      <div class="container">
+        <h2 class="section-title">考公复习</h2>
+        <p class="section-subtitle">目标：2027 年国考 · 每天进步一点点</p>
+
+        <!-- 报考目标 -->
+        <div class="exam-goal reveal">
+          <div class="goal-item">
+            <span class="goal-label">报考方向</span>
+            <strong>国考 · 税务系统</strong>
+          </div>
+          <div class="goal-item">
+            <span class="goal-label">预计笔试</span>
+            <strong>2026 年 11 月（请按实际调整）</strong>
+          </div>
+          <div class="goal-item">
+            <span class="goal-label">目标分数</span>
+            <strong>行测 75 / 申论 70</strong>
+          </div>
+        </div>
+
+        <!-- 科目进度 -->
+        <h3 class="block-title">科目进度</h3>
+        <div class="progress-grid">
+          <div class="progress-item reveal">
+            <div class="progress-head">
+              <span>言语理解</span><span class="progress-val">82%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-progress="82"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="progress-head">
+              <span>判断推理</span><span class="progress-val">76%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-progress="76"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="progress-head">
+              <span>资料分析</span><span class="progress-val">70%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-progress="70"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="progress-head">
+              <span>数量关系</span><span class="progress-val">45%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-progress="45"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="progress-head">
+              <span>常识判断</span><span class="progress-val">58%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-progress="58"></div></div>
+          </div>
+          <div class="progress-item reveal">
+            <div class="progress-head">
+              <span>申论</span><span class="progress-val">50%</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" data-progress="50"></div></div>
+          </div>
+        </div>
+
+        <div class="exam-two-col">
+          <!-- 每日学习计划 -->
+          <div class="exam-panel reveal">
+            <h3 class="block-title">每日学习计划</h3>
+            <ul class="plan-list">
+              <li><span class="plan-time">06:30 — 07:00</span>晨读：申论素材 + 常识积累</li>
+              <li><span class="plan-time">19:00 — 20:30</span>行测：专项刷题（言语 / 判断）</li>
+              <li><span class="plan-time">20:30 — 21:30</span>资料分析 + 数量关系</li>
+              <li><span class="plan-time">21:30 — 22:30</span>申论：小题练习 + 大作文框架</li>
+              <li><span class="plan-time">22:30 — 23:00</span>错题复盘 + 打卡</li>
+            </ul>
+          </div>
+
+          <!-- 复习资料 -->
+          <div class="exam-panel reveal">
+            <h3 class="block-title">复习资料推荐</h3>
+            <ul class="resource-list">
+              <li>📘 行测：<em>《行测的思维》</em> + 真题套卷</li>
+              <li>📙 申论：<em>《申论的规矩》</em> + 人民时评</li>
+              <li>📱 刷题：粉笔 / 中公题库（碎片时间）</li>
+              <li>🎧 积累：人民日报评论、学习强国</li>
+              <li>📝 错题本：按模块分类，每周复盘一次</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 里程碑 -->
+        <h3 class="block-title">备考里程碑</h3>
+        <div class="milestone-row">
+          <div class="milestone done"><span>✅</span>基础阶段<br>全面过一遍考点</div>
+          <div class="milestone done"><span>✅</span>强化阶段<br>分模块专项突破</div>
+          <div class="milestone active"><span>🔁</span>刷题阶段<br>真题 + 模考</div>
+          <div class="milestone"><span>⏳</span>冲刺阶段<br>查漏补缺冲刺</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 博客文章 ===== -->
+    <section class="section" id="blog">
+      <div class="container">
+        <h2 class="section-title">博客文章</h2>
+        <p class="section-subtitle">记录工作复盘与考公路上的思考</p>
+
+        <div class="post-list">
+          <article class="post-card reveal">
+            <div class="post-meta"><span class="post-cat cat-tech">技术</span><time>2026-11-10</time></div>
+            <h3>Vue3 中后台项目性能优化实践</h3>
+            <p>从首屏加载、组件渲染到打包体积，梳理我在中后台项目里用到的几个实用优化手段。</p>
+            <a class="post-link" href="#blog">阅读全文 →</a>
+          </article>
+          <article class="post-card reveal">
+            <div class="post-meta"><span class="post-cat cat-exam">考公</span><time>2026-11-06</time></div>
+            <h3>资料分析提速的 5 个小技巧</h3>
+            <p>资料分析不是考计算，而是考信息提取。分享我常用的速算与定位方法。</p>
+            <a class="post-link" href="#blog">阅读全文 →</a>
+          </article>
+          <article class="post-card reveal">
+            <div class="post-meta"><span class="post-cat cat-life">随笔</span><time>2026-10-28</time></div>
+            <h3>一边上班一边备考，我是如何安排时间的</h3>
+            <p>在职备考最难的其实是节奏。记录我的时间管理方式与踩过的坑。</p>
+            <a class="post-link" href="#blog">阅读全文 →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> 张三的个人博客 · 用心记录，持续成长</p>
+      <p class="footer-note">本站为静态示例，请将姓名、经历与复习进度替换为你的真实信息。</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
